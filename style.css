@@ -1,0 +1,184 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    display: flex;
+    height: 100vh;
+background-color: rgb(216, 211, 211);
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+
+    position: absolute;
+    top: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: purple;
+    text-decoration: underline;
+}
+
+.container{
+
+
+    display: flex;
+    height: 40vh;
+    width: 120vh;
+
+}
+
+.p1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+
+}
+
+.p2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    
+}
+
+.p3{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    
+}
+
+.outer{
+
+    border-radius: 50%;
+    height: 200px;
+    position: relative;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.5),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+
+}
+
+.inner{
+
+
+   
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+               inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7) ,
+               -0.5px -0.5px 0px rgba(255,255,255,0.05),
+               0.5px 0.5px 0px rgba(0,0,0,0.15),
+               0px 12px 10px -10px rgba(0,0,0,0.05);
+
+
+}
+
+.inner p{
+
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+#circle1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 30px;
+    stroke-dasharray: 534;
+    animation: anim1 2s linear forwards;
+}
+
+#svg1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+@keyframes anim1 {
+    0% {
+        stroke-dashoffset: 534;
+    }
+    100% {
+        stroke-dashoffset: 53.4;
+    }
+}
+
+
+#circle2 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 30px;
+    stroke-dasharray: 534;
+    animation: anim2 2s linear forwards;
+}
+
+#svg2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+@keyframes anim2 {
+    0% {
+        stroke-dashoffset: 534;
+    }
+    100% {
+        stroke-dashoffset: 373.8;
+    }
+}
+
+
+
+#circle3 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 30px;
+    stroke-dasharray: 534;
+    animation: anim3 2s linear forwards;
+}
+
+#svg3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+@keyframes anim3 {
+    0% {
+        stroke-dashoffset: 534;
+    }
+    100% {
+        stroke-dashoffset: 193;
+    }
+}
